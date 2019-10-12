@@ -4,6 +4,7 @@
   "description": "an simple Express application",
   "main": "index.js",
   "scripts": {
+    "danger": "danger ci",
     "start": "node index.js",
     "test": "mocha server.test.js"
   },
@@ -13,6 +14,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "danger": "9.2.1",
     "mocha": "^6.2.0",
     "supertest": "^4.0.2"
   }
